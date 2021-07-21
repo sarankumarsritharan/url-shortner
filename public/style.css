@@ -1,0 +1,37 @@
+body {
+    display: grid;
+    place-items: center;
+    font-family: 'Nunito', sans-serif;
+    background-color: #1e2d2e;
+    color: rgb(224, 209, 73);
+}
+
+.short-url {
+    margin: 20px;
+}
+
+.short-url a {
+    color: #193570;
+    text-decoration: none;
+}
+
+input[type='url'] {
+    display: block;
+    width: 40vw;
+}
+
+input[type='submit'] {
+    /* width: 100px; */
+    display: block;
+    margin: 10px auto;
+    background-color: #b53f3f;
+    color: rgb(153, 161, 41);
+    border: 0px;
+    border-radius: 2px;
+    padding: 4px 8px;
+    font-family: 'Nunito', sans-serif;
+}
+
+p.error {
+    color: #f44336;
+}
